@@ -1,57 +1,55 @@
-# Prepare to Teach 'Software Automation' in Software Engineering
+# Algorithms for 'Software Automation' in Software Engineering
 
-A facilitated online workshop series to support teacher confidence in the delivery of Software Automation. Teachers will commit to an eight-week series of one-hour online workshops, each with 1 hour of preparation work each week.
+This repository provides resources for understanding and teaching fundamental machine learning algorithms and object-oriented programming (OOP) examples in Python. The collection includes Jupyter Notebooks that demonstrate core algorithms and practical OOP implementations relevant to software automation.
 
-At the end of the workshop series, teachers will
+## Contents
 
-1. Have a deeper understanding of the Machine Learning Algorithms listed in the syllabus and the underlying principles of Machine Learning.
-2. Be able to interpret and modify practical OOP implementations of the Algorithms.
-3. Have a practical understanding of MLOps.
-4. Be provided with all resources to adapt or adopt to their context.
+### Jupyter Notebooks
 
-Teachers should be prepared to complete one hour of self-directed professional learning before the online workshop each week. The online workshop will focus on deepening understanding of the preparation work and practical application of the concepts through OOP Python implementations.
+- **Fundamental Algorithms**  
+  Notebooks cover key machine learning algorithms, including:
+  - Linear Regression (single and multi-feature)
+  - Polynomial Regression
+  - Logistic Regression (classification)
+  - K Nearest Neighbour
+  - Decision Trees
+  - Neural Networks
 
-## Session Times
+- **OOP Examples**  
+  Each algorithm is implemented using object-oriented programming principles in Python, providing clear, modular code examples for practical use and adaptation.
 
-The online workshops will begin week 1, term 2 until week 8, Tuesdays from 3:30-4:30pm.
+- **Data Handling and Preprocessing**  
+  Notebooks include examples of:
+  - Using Numpy and Pandas for data manipulation
+  - One-hot encoding
+  - Visualisation with Matplotlib
+  - Addressing bias and variance in datasets
 
-## Program
+- **MLOps Concepts**  
+  Resources introduce practical aspects of Machine Learning Operations (MLOps), including:
+  - Model development and evaluation
+  - Feature engineering
+  - Model exporting and deployment (e.g., CLI integration)
 
-> [!Note]
-> This Program is indicative and will be adjusted as we progress, as some topics may take less time than planned and others longer.
+## Purpose
 
-| Week  | Overview                                                                                                   | Workshop Outline                                                                                                                                                                           | Preperation                                                                                                                                                                                      |
-| ----- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 0     |                                                                                                            |                                                                                                                                                                                            | <ul><li>Video's & Notes</li><li>Clone Repo</li><li>Create 'Codespace on main'</li><li>[Optional Google Introduction to ML](https://developers.google.com/machine-learning/intro-to-ml)</li></ul> |
-| 1     | Linear Regression                                                                                          | <ul><li>Jupyter Notebooks</li><li>Numpy & Pandas</li><li>Linear Regression</li><li>Linear Regression algorithm</li><li>Intuition: Fit, underfit, overfit</li></ul>                         | <ul><li>Video's & Notes</li><li>Problem Set</li></ul>                                                                                                                                            |
-| 2     | Complex Regression & Classification                                                                        | <ul><li>OOP Multifeature Linear Regression</li><li>OOP Polynomial Linear Regression</li><li>Classification</li><li>Logistic Regression algorithm</li><li>OOP Logistic Regression</li></ul> | <ul><li>Video's & Notes</li><li>Problem Set</li><li>OOP Logistic Regression Iris Classification Problem</li></ul>                                                                                |
-| 3     | Data in Machine Learning                                                                                   | <ul><li>Bias V Variance</li><li>Bias in Machine Learning</li><li>Matplotlib</li><li>One hot encoding</li></ul>                                                                             | <ul><li>Video's & Notes</li><li>Problem Set</li></ul>                                                                                                                                            |
-| 4     | Advanced Supervised Machine Learning                                                                       | <ul><li>OOP K Nearest Neighbour</li><li>OOP Decision Trees</li><li>OOP Neural Networks</li></ul>                                                                                           | <ul><li>Video's & Notes</li><li>Problem Set</li><li>OOP Neural Network Iris Classification</li></ul>                                                                                                                                            |
-| 5     | [MLOPs](https://github.com/TempeHS/Practical-Application-of-NESA-Software-Engineering-MLOps) (Design)      | <ul><li>MLOps</li><li>Refactor machine learning problem</li><li>Define success metrics</li></ul>                                                                                           | <ul><li>Video's & Notes</li><li>Problem Set</li></ul>                                                                                                                                            |
-| 6 & 7 | [MLOPs](https://github.com/TempeHS/Practical-Application-of-NESA-Software-Engineering-MLOps) (Development) | <ul><li>Data wrangling</li><li>Feature Engineering</li><li>Model Fitting</li><li>Testing and evaluation</li><li>Model refining</li></ul>                                                   | <ul><li>Model development</li></ul>                                                                                                                                                              |
-| 8     | [MLOPs](https://github.com/TempeHS/Practical-Application-of-NESA-Software-Engineering-MLOps) (Operations)  | <ul><li>Model exporting</li><li>Implement a CLI to a model</li></ul>                                                                                                                       | <ul><li>Capstone Project</li></ul>                                                                                                                                                               |
-
-## Capstone Project
-
-At the end of the workshop, teachers will be given an optional task that will require them to identify a data set, wrangle the data, engineer features, develop an ML model and put it into operations.
-
-The optional task will be reviewed informally as a 1:1 online discussion about the final solution you have delivered anytime after the workshops have ended (no formal submission date).
+These materials are designed as standalone resources for educators and learners to explore, adapt, and apply machine learning algorithms and OOP implementations. They are not structured as a course, but as a flexible toolkit for professional learning and classroom use.
 
 ## Other Resources
 
-1. [Pre-configured Code Spaces DevContainer for Machine Learning](https://github.com/TempeHS/TempeHS_Jupyter-Notebook_DevContainer) - A repository template for Jupyter Notebook Python Development in GitHub CodeSpaces including image packages.
-2. [NESA Course Specification Linear Regression Implementation](https://github.com/TempeHS/NESA_Course_Specifications_Linear_Regression) - A Jupyter Notebook collection designed to support students' understanding of the Linear Regression model defined in the NESA Software Engineering Course Specifications pg 28.
-3. [NESA Software Engineering - Machine Learning OOP Implementation Examples](https://github.com/TempeHS/Machine_Learning_OOP_Implementation_Examples) - A Jupyter Notebook collection designed to support students implement Programming for automation in the NESA Software Engineering Syllabus specifically using an OOP to make predictions.
-4. [Practical Application of NESA Software Engineering MLOps](https://github.com/TempeHS/Practical-Application-of-NESA-Software-Engineering-MLOps) - A Jupyter Notebook collection designed to develop a practical understanding of Machine Learning Operations (MLOps) defined in the NESA Software Engineering Course Specifications pg 27.
+1. [Pre-configured Code Spaces DevContainer for Machine Learning](https://github.com/TempeHS/TempeHS_Jupyter-Notebook_DevContainer)
+2. [NESA Course Specification Linear Regression Implementation](https://github.com/TempeHS/NESA_Course_Specifications_Linear_Regression)
+3. [NESA Software Engineering - Machine Learning OOP Implementation Examples](https://github.com/TempeHS/Machine_Learning_OOP_Implementation_Examples)
+4. [Practical Application of NESA Software Engineering MLOps](https://github.com/TempeHS/Practical-Application-of-NESA-Software-Engineering-MLOps)
 
 ### External links:
 
-- [AI Fairness Project](https://github.com/Trusted-AI/AIF360) - Detect and mitigate bias in machine learning models.
-- [Machine Learning University](https://mlu-explain.github.io/) - A collection of explainations and interactive visualisations about Machine Learning.
-- [FastAPI for ML Project](https://github.com/kingabzpro/FastAPI-for-ML) - An ML project to build a simple API for a machine learning model.
-- [CICD for ML Project](https://github.com/kingabzpro/CICD-for-Machine-Learning) - An ML project to implement a CI/CD pipeline.
-- [Automate ML Testing Project](https://github.com/kingabzpro/Automating-Machine-Learning-Testing) - An ML project to automate a testing pipeline.
-- [Deploy an LLM Application with Docker](https://github.com/kingabzpro/Deploying-LLM-Applications-with-Docker) - An ML project to build and deploy a LLM model in a docker container.
+- [AI Fairness Project](https://github.com/Trusted-AI/AIF360)
+- [Machine Learning University](https://mlu-explain.github.io/)
+- [FastAPI for ML Project](https://github.com/kingabzpro/FastAPI-for-ML)
+- [CICD for ML Project](https://github.com/kingabzpro/CICD-for-Machine-Learning)
+- [Automate ML Testing Project](https://github.com/kingabzpro/Automating-Machine-Learning-Testing)
+- [Deploy an LLM Application with Docker](https://github.com/kingabzpro/Deploying-LLM-Applications-with-Docker)
 
 <HR>
 
